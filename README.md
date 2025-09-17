@@ -2,6 +2,8 @@
 
 There's multiple files because I'm defining some helper library crates. The main project is called "tetra".
 
+I also included my "bvh" project (it has a README), which challenges my understanding of performance coding (cache efficiency, instruction count, memory latency, SIMT execution on GPU, etc.).
+
 # Launch
 
 Need :
