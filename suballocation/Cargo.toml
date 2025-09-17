@@ -1,0 +1,43 @@
+[package]
+name = "suballocation"
+version = "1.0.0"
+edition = "2024"
+
+[dependencies]
+# Memory utilities
+mem_utils = { path = "../mem_utils" }
+
+# Faster hashmaps
+rustc-hash = "2"
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

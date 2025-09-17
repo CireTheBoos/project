@@ -1,0 +1,8 @@
+[package]
+name = "vk_utils"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Vulkan
+ash = "0.38"
