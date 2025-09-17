@@ -2,7 +2,7 @@
 
 There's multiple files because I'm defining some helper library crates. The main project is called "tetra".
 
-I also included my "bvh" project (it has a README), which challenges my understanding of how to code for performance.
+I also included my WIP "bvh" project (it has a README), that challenges my understanding of coding for performance.
 
 # Launch
 
