@@ -33,12 +33,12 @@ This will compile every dependencies and launch the executable.
 Features :
 - **Memos** : See inside "tetra/memos" for all my vulkan notes. I try to understand deeply every concepts.
 - Per triangle rendering (currently using geometry shader but I will change for duplicate vertices + `gl_VertexID / 3`).
-- Controls camera + ZQSD + Shift + Space (camera lacks a bit of fluidity).
+- Controls : Mouse + ZQSD + Shift/Space.
 - Resizable window.
 - Depth testing.
 - Dynamic addition of meshes (cubes are added after renderer creation). No deletion or edit.
 - Multi-Draw Indirect.
-- Custom vulkan context (instance, device creation). I didn't know of Vulkan Bootstrap at the time.
+- Custom vulkan context (instance and device creation). I didn't know of Vulkan Bootstrap at the time.
 - Memory management using VMA.
 - Dynamic rendering instead of render passes.
 
