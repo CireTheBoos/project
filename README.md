@@ -36,7 +36,7 @@ Features :
 - Controls camera + ZQSD + Shift + Space (camera lacks a bit of fluidity).
 - Resizable window.
 - Depth testing.
-- Dynamic addition of meshes (no input for doing it ourselves but the cubes are added after renderer creation).
+- Dynamic addition of meshes (cubes are added after renderer creation).
 - Multi-Draw Indirect.
 - Custom vulkan context (instance, device creation). I didn't know of Vulkan Bootstrap at the time.
 - Memory management using VMA.
