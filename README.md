@@ -1,6 +1,6 @@
 # Folders
 
-There's multiple folders because the main project use some custom library crates.
+There's multiple folders because the main project is splitted into a binary crate and multiple custom library crates.
 
 You can explore the ones you want to know more about (they all have READMEs) :
 - "tetra" (main project) : Graphics renderer.
