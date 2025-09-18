@@ -1,8 +1,11 @@
-# Multiple files
+# Folders
 
-There's multiple files because I'm defining some helper library crates. The main project is called "tetra".
+There's multiple folders because the main project use some custom library crates :
+- Main project is called "tetra".
+- Others are library crates (mostly independent).
+- "bvh" is not yet used by "tetra" but working.
 
-I also included my WIP "bvh" project (it has a README).
+They all have a README if you're interested in one of them.
 
 # Launch
 
@@ -11,37 +14,18 @@ Need :
 - cargo (rust package, called "crate", manager)
 - vulkan drivers
 
-Download folder :
+Download whole project :
 
 ```bash
 git clone https://github.com/CireTheBoos/project
 ```
 
-Open terminal in "tetra" and type :
+Open terminal in "project/tetra" and type :
 
 ```bash
 cargo run -r
 ```
 
-This will compile every dependencies and launch the executable.
-(`-r` for "release mode" as opposed to "debug mode" that contains additional checks)
+This will compile every dependencies and launch the executable in release mode.
 
 **Press ESCAPE to focus/unfocus once window appears.**
-
-# Project
-
-![tetra_screenshot](./tetra_screenshot.png)
-
-Features :
-- **Memos** : See inside "tetra/memos" for all my vulkan notes. I try to understand deeply every concepts.
-- Per triangle rendering (currently using geometry shader but I will change for duplicate vertices + `gl_VertexID / 3`).
-- Controls : Mouse + ZQSD + Shift/Space.
-- Resizable window.
-- Depth testing.
-- Dynamic addition of meshes (cubes are added after renderer creation). No deletion or edit.
-- Multi-Draw Indirect.
-- Custom vulkan context (instance and device creation). I didn't know of Vulkan Bootstrap at the time.
-- Memory management using VMA.
-- Dynamic rendering instead of render passes.
-
-Just a basic renderer for now, with premises of dynamic mesh edit.
