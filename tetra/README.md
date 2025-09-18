@@ -1,8 +1,8 @@
-# Features
-
 ![tetra_screenshot](./tetra_screenshot.png)
 
-- **Memos** : Inside "memos" there's all my vulkan notes. I try to understand deeply every concepts.
+# Features
+
+- **Memos** : Inside "memos" folder are all my vulkan notes. I try to understand deeply every concepts.
 - Per triangle rendering (currently using geometry shader but I will change for duplicate vertices + `gl_VertexID / 3`).
 - Controls : Mouse + ZQSD + Shift/Space + Escape.
 - Resizable window.
