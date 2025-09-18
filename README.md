@@ -1,11 +1,12 @@
 # Folders
 
-There's multiple folders because the main project use some custom library crates :
-- Main project is called "tetra".
-- Others are library crates (mostly independent).
-- "bvh" is not yet used by "tetra" but working.
+There's multiple folders because the main project use some custom library crates.
 
-They all have a README if you're interested in one of them.
+You can explore the ones you want to know more about (they all have READMEs) :
+- "tetra" (main project) : Graphics renderer.
+- "suballocation" : Allocate/Reallocate/Deallocate regions of a given memory buffer, for objects that changes in size at runtime.
+- "bvh" : Bounding Volume Hierachy, an acceleration struture used in ray tracing.
+- ".._utils" : Just some utilities, not that interesting.
 
 # Launch
 
